@@ -90,7 +90,7 @@
             LinkedIn <FaLinkedin size={30} />
             </>
         ),
-        href: "https://linkedin.com",
+        href: "https://www.linkedin.com/in/mohamed-saad-eldeen-641507243/",
         style: "rounded-tr-md",
         },
         {
@@ -100,7 +100,7 @@
             GitHub <FaGithub size={30} />
             </>
         ),
-        href: "https://github.com/theyashpatel",
+        href: "https://github.com/Mohamed-cyber-hub",
         },
         {
         id: 3,
@@ -109,7 +109,7 @@
             Mail <HiOutlineMail size={30} />
             </>
         ),
-        href: "mailto:foo@gmail.com",
+        href: "mailto:mohamedsaadeldeen35@gmail.com",
         },
         {
         id: 4,
@@ -118,9 +118,8 @@
             Resume <BsFillPersonLinesFill size={30} />
             </>
         ),
-        href: "/resume.pdf",
+        href: "/Mohamed-resume.pdf",
         style: "rounded-br-md",
-        download: true,
         },
     ];
 
