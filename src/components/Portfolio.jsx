@@ -156,9 +156,9 @@ const Portfolio = () => {
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
           <div className="pb-8">
           <h3 className="text-4xl font-bold inline border-b-4 border-[#304D30]">
-            Portfolio
+            Some Projects I Have Worked On:
           </h3>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Click on the buttons to see more details!</p>
         </div>
         <div className='grid mb-20 sm:grid-cols-2  md:grid-cols-3 gap-8 px-12 sm:p-0'>
           {portfolios.map(({ id, src, demo, code }) => (
