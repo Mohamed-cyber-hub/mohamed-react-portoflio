@@ -152,36 +152,62 @@ const Portfolio = () => {
     ];
 
   return (
-    <div name="portfolio" className='bg-gradient-to-b from-[#B6C4B6] via-[#304D30] to-[#163020] w-full text-[#304D30] pt-40 md:h-screen'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-          <div className="pb-8">
-          <h3 className="text-4xl font-bold inline border-b-4 border-[#304D30]">
-            Some Projects I Have Worked On:
+    <div
+      name="portfolio"
+      className="bg-gradient-to-r from-[#10403B] via-[#637371] to-[#BFBFBF] w-full text-[#304D30] pt-40 md:h-screen">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <h3 className="text-4xl text-[#B6C4B6] font-bold inline border-b-4 border-[#B6C4B6]">
+            Some Projects I
+            Have Worked On:
           </h3>
-          <p className="py-6">Click on the buttons to see more details!</p>
+          <p className="py-6 text-[#B6C4B6]">
+            Click on the
+            buttons to see
+            more details!
+          </p>
         </div>
-        <div className='grid mb-20 sm:grid-cols-2  md:grid-cols-3 gap-8 px-12 sm:p-0'>
-          {portfolios.map(({ id, src, demo, code }) => (
-            <div key={id} className='shadow-md shadow-[#B6C4B6] rounded-lg'>
-              <img src={src} alt='' className='rounded-md duration-300 hover:scale-105' />
-              <div className='flex items-center justify-center'>
-                <button
-                  onClick={() => handleCodeButtonClick(code)}
-                  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-[#B6C4B6] font-semibold border-2 rounded-lg border-black'
-                >
-                  Code
-                </button>
-                {demo && (
+        <div className="grid mb-20 sm:grid-cols-2  md:grid-cols-3 gap-8 px-12 sm:p-0">
+          {portfolios.map(
+            ({
+              id,
+              src,
+              demo,
+              code,
+            }) => (
+              <div
+                key={id}
+                className="shadow-md shadow-[#B6C4B6] rounded-lg">
+                <img
+                  src={src}
+                  alt=""
+                  className="rounded-md duration-300 hover:scale-105"
+                />
+                <div className="flex items-center justify-center">
                   <button
-                    onClick={() => handleDemoButtonClick(demo)}
-                    className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-[#B6C4B6] font-semibold border-2 rounded-lg border-black'
-                  >
-                    Demo
+                    onClick={() =>
+                      handleCodeButtonClick(
+                        code
+                      )
+                    }
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-[#B6C4B6] font-semibold border-2 rounded-lg border-[#127369] hover:bg-[#127369]">
+                    Code
                   </button>
-                )}
+                  {demo && (
+                    <button
+                      onClick={() =>
+                        handleDemoButtonClick(
+                          demo
+                        )
+                      }
+                      className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-[#B6C4B6] font-semibold border-2 rounded-lg border-[#127369] hover:bg-[#127369]">
+                      Demo
+                    </button>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
       </div>
     </div>

@@ -7,15 +7,15 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
     return (
         <div
         name="home"
-        className="h-screen w-full bg-gradient-to-b from-[#163020] via-[#304D30] to-[#B6C4B6]">
+        className="h-screen w-full bg-gradient-to-r from-[#10403B] via-[#637371] to-[#BFBFBF]">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full sm:h-fit mt-20">
-            <h2 className="text-4xl sm:text-7xl font-bold text-[#B6C4B6]">
+            <h2 className="text-4xl sm:text-6xl font-bold text-[#B6C4B6]">
                 I'm a FrontEnd
                 Developer
             </h2>
             <p className="text-[#B6C4B6] py-4 max-w-md">
-                I experience in
+                I have experience in
                 building and
                 designing
                 frontend websites.
@@ -33,7 +33,7 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
                 to="portfolio"
                 smooth
                 duration={500}
-                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#163020] to-[#B6C4B6] cursor-pointer">
+                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-l from-[#10403B]  to-[#10403B] cursor-pointer">
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">
                     <MdOutlineKeyboardArrowRight
