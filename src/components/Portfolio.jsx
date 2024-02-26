@@ -84,6 +84,7 @@ import illdy from '../assets/portfolio/illdy.png';
 import anime from '../assets/portfolio/anime.png'
 import plumber from '../assets/portfolio/plumber.png'
 import echo from '../assets/portfolio/echo.png'
+import gpt3 from '../assets/portfolio/gpt3.png'
 
 const Portfolio = () => {
   const handleCodeButtonClick = (code) => {
@@ -148,6 +149,12 @@ const Portfolio = () => {
         src: anime,
         demo: 'https://anime-server-action.vercel.app/',
         code: 'https://github.com/Mohamed-cyber-hub/Anime-Server-Action',
+      },
+      {
+        id: 10,
+        src: gpt3,
+        demo: 'https://modern-ui-ux-eg6q.vercel.app/',
+        code: 'https://github.com/Mohamed-cyber-hub/Modern-UI-UX.git',
       },
     ];
 
